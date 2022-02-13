@@ -14,7 +14,6 @@ class App extends Component {
 
   onClickButton = (button) => {
     this.setState((state) => ({
-      ...state,
       [button]: state[button] + 1,
     }));
   };
